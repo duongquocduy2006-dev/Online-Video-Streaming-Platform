@@ -2,12 +2,17 @@ package beans;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import entities.Category;
 import services.CategoryServices;
 
-//TESTTTTTTT
+
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class CategoryBean {
     private Integer id; // Dùng cho việc update
     private String name;
