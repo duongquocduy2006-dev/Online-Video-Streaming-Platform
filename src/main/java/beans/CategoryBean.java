@@ -6,7 +6,7 @@ import lombok.Data;
 import entities.Category;
 import services.CategoryServices;
 
-//test
+//TESTTTTTTT
 @Data
 public class CategoryBean {
     private Integer id; // Dùng cho việc update
